@@ -8,11 +8,11 @@ using ariel::Direction;
 
 namespace ariel {
     
-    int Board::read(int r, int c, Direction d, int l){
+    int Board::read(unsigned int r, unsigned int c, Direction d, unsigned int l){
         return 0;
     }
 
-    int Board::post(int r, int c, Direction d, string s){
+    int Board::post(unsigned int r, unsigned int c, Direction d, string s){
         return 0;
     }
 
