@@ -9,8 +9,8 @@ namespace ariel {
         class Board{
 
             public  : 
-            int read(int r, int c, Direction d, int l);
-            int post(int r, int c, Direction d, string s);
+            int read(unsigned int r, unsigned int c, Direction d, unsigned int l);
+            int post(unsigned int r, unsigned int c, Direction d, string s);
             void show();
         };
 }
